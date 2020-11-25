@@ -16,6 +16,11 @@ def getSum(num1, num2):
     return total
 
 
+def getProd(num1, num2):
+    total = num1 * num2
+    return total
+
+
 numSum = getSum(2, 3)
 
 
@@ -26,15 +31,9 @@ def addOnetoNum(num):
 
 num = 5
 new_num = addOnetoNum(num)
+print(getProd(1, 5))
 print(new_num)
 
 
 # A lambda function is a small anonymous function.
 # A lamba function can take any number of arguments. Very similar to JS arrow functions.
-
-getSum = lambda num1, num2 : num1 + num2
-
-print(getSum(9,2))
-
-addOnetoNum = lambda num : num + 1
-print(addOnetoNum(5))
